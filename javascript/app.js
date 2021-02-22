@@ -1,5 +1,6 @@
 'use strict';
 alert(' Welcome to Pat’s Salmon Cookies !');
+
 const seatle = {
   name: ' seatle',
   maxNumberOfCustomers: 65,
@@ -7,8 +8,9 @@ const seatle = {
   averageNumberOfCookiesSale: 6.3,
   numberOfCustomers: 0,
   numberOfCookies: 0,
+  dayHours: ['06 am', '07 am', '08 am', '09 am', '10 am', '11 am', '12 pm', '01 pm', '02 pm', '03 pm', '04 pm', '05 pm', '06 pm', '07 pm'];
+
   totalCookies: 0,
-  dayHours: ['06 am', '07 am', '08 am', '09 am', '10 am', '11 am', '12 pm', '01 pm', '02 pm', '03 pm', '04 pm', '05 pm', '06 pm', '07 pm'],
   customersNumber: function (min, max) {
     this.numberOfCustomers = RandomNumber(min, max);
   },
