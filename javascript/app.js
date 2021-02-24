@@ -4,7 +4,9 @@ let hours = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '
  
 let columnHeader = ['Sales/h','6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm','Daily Location Total'];
 
-
+const article = document.createElement('article');
+const table = document.createElement('table');
+const tbody = document.createElement('tbody');
 function generateRandomNumber(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
@@ -108,8 +110,8 @@ this.totalCookiesSales;
       
   };
 
-  const seattle = new City('Seattle', 23, 65, 6.3, [], [], 0);
-  seattle.numberOfCookiesSale();
+  const Seattle = new City('Seattle', 23, 65, 6.3, [], [], 0);
+  Seattle.numberOfCookiesSale();
   console.log(seattle);
 
   const tokyo = new City('Tokyo', 3, 24, 1.2, [], [], 0);
@@ -129,6 +131,11 @@ this.totalCookiesSales;
   console.log(lima);
 
   City.prototype.render();
+
+  /*elem.addEventListener(type, handler, {
+    once: true
+});*/
+
 
 
 

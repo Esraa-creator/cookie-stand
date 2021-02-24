@@ -1,18 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>sales</title>
+  <link rel="stylesheet" href="./css/style.css">
+  </LInk>
 
 </head>
+
 <body>
- 
-  <div id = 'Salamon'></div>
- <main></main>
- <footer></footer>
+
+  <div id='Salamon'></div>
+  <main></main>
+  <form id="new-location-addition">
+    <fieldset>
+      <legend>new-location-addition</legend>
+
+      <div>
+        <label for="name">name of city</label>
+        <input name="name-of-city" type="text" id="mame">
+
+        <label for="min">min.num of customers</label>
+        <input type="number" id="min" name="min_num_of_customers">
+
+       <label for="max">max.num of customers</label>
+        <input type="number" id="max" name="max_num_of_customers">
+
+        <label for="avarage">avarage</label>
+        <input type="number" step="any" min="0" id="avarage" name="Avarage">
+        <button type="submit">Save</button>
+      </div>
+     
+
+
+
+
+
+    </fieldset>
+  </form>
+  <footer>
+    <p><a href="index.html">Index</a></p>
+  </footer>
 </body>
-<script type="text/javascript" src="./javascript/app.js"></script>
+
+<script src="./javascript/app.js"></script>
 
 </html>

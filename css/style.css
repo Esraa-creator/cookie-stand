@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    width: 1000px;
+    margin:auto;
+    line: height 2px;
+    background-color: rgb(247, 222, 222);
+
+  }
+
+
+
+body h1 {
+  text-align: center;
+  color: rgb(14, 13, 13);
+}
+
+
+
+
+#Salamon
+
+td, th {
+  border: 1px solid rgb(201, 184, 184);
+  padding: 5px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+th {
+  background: rgb(255, 123, 109);
+  color: #000000;
+}
+
+footer {
+  clear: both;
+  background: rgb(26, 231, 180);
+  padding:5px;
+  margin-top: 25px;
+  width: 905px;
+}
